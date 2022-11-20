@@ -7,7 +7,7 @@ const Table =()=>{
     return(
         <table>
             <TableHead/>
-            <TableBody/>
+            <TableBody />
         </table>
     )
 }

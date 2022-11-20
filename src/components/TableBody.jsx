@@ -12,14 +12,8 @@ const getFlights =()=>{
   .then(response=>response.data)
   .then(data=>setFlights(Object.values(data.data)))
   .catch(err=> console.log(err))
- 
 }
 useEffect(()=>getFlights(), [])
-
-
-
-
-
   return (
     <tbody>
         {flights?.map((flight,_index)=>(

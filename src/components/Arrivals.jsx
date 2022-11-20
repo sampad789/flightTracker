@@ -1,7 +1,12 @@
-
+import Table from './Table'
+import {Link} from 'react-router-dom';
 const Arrivals = () => {
   return (
-    <div>Arrivals</div>
+<div className='directions'>
+      <header className='title'> Arrivals </header>
+      <Table />
+    <Link to="/" className='title'>Check Out Our Departures</Link>
+    </div>
   )
 }
 

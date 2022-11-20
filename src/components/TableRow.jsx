@@ -3,6 +3,7 @@ import TableCell from './TableCell'
 
   const words = Object.values(flight)
  
+
   return (
     <tr>
       <td>✈</td>
